@@ -48,6 +48,6 @@ cats()
 
 function newCats() {
   document.getElementById("grid").innerText = ""
-  document.getElementById("grid2").innerText = ""
+  // document.getElementById("grid2").innerText = ""
   cats()
 }

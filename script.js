@@ -25,11 +25,11 @@ imagesData.map(function(imageData) {
   image.src = `${imageData.url}`;
       
   let gridCell = document.createElement('div');
-  gridCell.classList.add('col');
-  gridCell.classList.add('col-lg');
+  gridCell.classList.add('dog-column');
+  // gridCell.classList.add('col-lg');
   gridCell.appendChild(image)
     
-  document.getElementById('grid').appendChild(gridCell);
+  document.getElementById('dog-main').appendChild(gridCell);
 
   
 
@@ -39,12 +39,16 @@ imagesData.map(function(imageData) {
 
   if (imageData.breeds[0]){
   breed.innerText = `${imageData.breeds[0].name}`
+  breed.classList.add('breed-text')
   bred_for.innerText = `Bred for: ${imageData.breeds[0].bred_for}`
   temperament.innerText = `Temperament: ${imageData.breeds[0].temperament}`
 } else {breed.innerText = "Breed unspecified"}
-  document.getElementById('grid2').appendChild(breed)
-  document.getElementById('grid2').appendChild(bred_for)
-  document.getElementById('grid2').appendChild(temperament)
+gridCell.appendChild(breed)
+gridCell.appendChild(bred_for)
+gridCell.appendChild(temperament)
+  // document.getElementById('grid2').appendChild(breed)
+  // document.getElementById('grid2').appendChild(bred_for)
+  // document.getElementById('grid2').appendChild(temperament)
 
   // document.body.appendChild(breed)
   
@@ -58,7 +62,7 @@ imagesData.map(function(imageData) {
 dogs()
 
 function newDogs() {
-  document.getElementById("grid").innerText = ""
-  document.getElementById("grid2").innerText = ""
+  document.getElementById("dog-main").innerText = ""
+  // document.getElementById("grid2").innerText = ""
   dogs()
 }
