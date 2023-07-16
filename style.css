@@ -81,8 +81,34 @@ p{
     margin-bottom: 0;
     margin-top: 0;
     font-family: 'Lilita One', cursive;
+    color: plum;
+    text-shadow: 3px 5px 3px rgba(0, 0, 0, 0.656);
+  }
+
+  a{
+    color:midnightblue;
+    /* color:rgb(19, 228, 158); */
+    font-weight: 100;
+    text-shadow: none;
+    transition: .5s;
+  }
+
+  a:hover{
+    color:rgb(161, 194, 255);
+    transition: .5s;
+    text-decoration: none;
 
   }
+
+  a:active{
+    color:lavender;
+    transition: .2s;
+
+  }
+
+  /* a:visited{
+    color:orange
+  } */
 
   /* ul{
     list-style-type: none;
