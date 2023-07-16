@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet Project</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Pet Project</h1>
-    <nav>
-        <ul>
-          <li><strong>Cats</strong></li>
-          <li><a href="index.html">Dogs</a></li>
-        </ul>
-      </nav>
-    <p>Cats are something that tend to be appreciated in quantity. Therefore, it stands to reason, that what follows shall be a bunch of cats.</p>
-    <script src="cat_script.js"></script>
+  <h1>Pet Project</h1>
+  <nav>
+    <!-- <ul> -->
+ 
+      <h3><a href="index.html">Dogs</a></li>
+        <h3><strong>Cats</strong></li>
+    <!-- </ul> -->
+  </nav>
 
-    <div class="maincontent">
-        <div id="grid" class="cat-center"></div>
-        <div id="grid2" ></div>
-       </div>
+  <div id="para-container">
+    <div id="page-para">
+      <p>Cats are something that tend to be appreciated in quantity. Therefore, it stands to reason, that what follows
+        should be copious amounts of pictures of cats. And so it is.</p>
+    </div>
+  </div>
+  <script src="cat_script.js"></script>
 
-       <button onclick="newCats()">New Cats</button>
+  <div class="maincontent">
+    <div id="grid" class="cat-center"></div>
+    <div id="grid2"></div>
+  </div>
+
+  <button onclick="newCats()">New Cats</button>
 </body>
+
 </html>

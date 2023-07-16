@@ -39,10 +39,11 @@ imagesData.map(function(imageData) {
 
   if (imageData.breeds[0]){
   breed.innerText = `${imageData.breeds[0].name}`
-  breed.classList.add('breed-text')
+  
   bred_for.innerText = `Bred for: ${imageData.breeds[0].bred_for}`
   temperament.innerText = `Temperament: ${imageData.breeds[0].temperament}`
 } else {breed.innerText = "Breed unspecified"}
+breed.classList.add('breed-text')
 gridCell.appendChild(breed)
 gridCell.appendChild(bred_for)
 gridCell.appendChild(temperament)

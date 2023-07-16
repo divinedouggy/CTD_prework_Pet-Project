@@ -18,7 +18,7 @@ h2{
 
 p{
   font-family: 'Indie Flower', cursive;
-  font-size: 32px;
+  font-size: 37px;
 }
 
 
@@ -69,10 +69,25 @@ p{
     justify-content: center;
   }
 
-  ul{
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+
+  nav h3{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Lilita One', cursive;
+
+  }
+
+  /* ul{
     list-style-type: none;
     font-size: 34px;
-  }
+  } */
 
   #dog-main{
     display: flex;
@@ -101,4 +116,40 @@ p{
     font-size:22px;
     font-style: italic;
     font-weight: bold;
+  }
+
+  #para-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  #page-para{
+  display: flex;
+  justify-content: center;
+  width: 73vw;
+
+  }
+
+  /* #page-para p{
+    width: 111em;
+  } */
+
+  button{
+    margin: 50px;
+    font-size: 18px;
+    height: 78px;
+    border: 3px solid black;
+    border-radius: 35px;
+    padding: 15px;
+  }
+
+  
+  button:hover{
+    background-color: lavender;
+    color: blueviolet;
+    border-color: blueviolet;
+    transition: .3s;
+    outline: 10px solid;
   }
