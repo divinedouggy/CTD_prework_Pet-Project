@@ -20,7 +20,6 @@ imagesData.map(function(imageData) {
       
   let gridCell = document.createElement('div');
   gridCell.classList.add('dog-column');
-  // gridCell.classList.add('col-lg');
   gridCell.appendChild(image)
     
   document.getElementById('dog-main').appendChild(gridCell);
