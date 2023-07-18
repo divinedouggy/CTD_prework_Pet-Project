@@ -1,11 +1,5 @@
 
 
-
-// const element = document.getElementById("elbyid");
-// element.style.color = "orange"
-// let d = new Date();
-// document.body.innerHTML += "<h2>Today's date is " + d + "</h2>"
-
 const url = "https://api.thedogapi.com/v1/images/search?limit=3"
 const api_key = "live_3s6WmIZuxb0ELh85YNl5ItavXvQs5H3o9zVVvcRPfgQVvq9PLng5pnv8p1FjU5d4"
 
@@ -31,8 +25,6 @@ imagesData.map(function(imageData) {
     
   document.getElementById('dog-main').appendChild(gridCell);
 
-  
-
   let breed = document.createElement('h2');
   let bred_for = document.createElement('h2');
   let temperament = document.createElement('h2');
@@ -47,11 +39,6 @@ breed.classList.add('breed-text')
 gridCell.appendChild(breed)
 gridCell.appendChild(bred_for)
 gridCell.appendChild(temperament)
-  // document.getElementById('grid2').appendChild(breed)
-  // document.getElementById('grid2').appendChild(bred_for)
-  // document.getElementById('grid2').appendChild(temperament)
-
-  // document.body.appendChild(breed)
   
   });
 })
@@ -64,6 +51,5 @@ dogs()
 
 function newDogs() {
   document.getElementById("dog-main").innerText = ""
-  // document.getElementById("grid2").innerText = ""
   dogs()
 }

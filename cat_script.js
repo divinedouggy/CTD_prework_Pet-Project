@@ -25,18 +25,6 @@ function cats(){
     gridCell.appendChild(image)
       
     document.getElementById('grid').appendChild(gridCell);
-  
-    
-  
-  //   let breed = document.createElement('h2');
-  
-  //   if (imageData.breeds[0]){
-  //   breed.innerText = `${imageData.breeds[0].name}`
-  // } else {breed.innerText = "Breed unspecified"}
-  //   document.getElementById('grid2').appendChild(breed)
-  
-  //   // document.body.appendChild(breed)
-    
     });
   })
   .catch(function(error) {
@@ -48,6 +36,5 @@ cats()
 
 function newCats() {
   document.getElementById("grid").innerText = ""
-  // document.getElementById("grid2").innerText = ""
   cats()
 }

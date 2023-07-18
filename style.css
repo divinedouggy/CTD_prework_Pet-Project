@@ -3,6 +3,7 @@ body{
     text-align: center;
 }
 
+/* title/logo */
 h1{
     color: plum;
     text-shadow: black 1px 2px 3px;
@@ -11,6 +12,7 @@ h1{
 
 }
 
+/* breed information */
 h2{
   font-size: 18px;
   font-weight: 100;
@@ -87,7 +89,6 @@ p{
 
   a{
     color:midnightblue;
-    /* color:rgb(19, 228, 158); */
     font-weight: 100;
     text-shadow: none;
     transition: .5s;
@@ -106,36 +107,10 @@ p{
 
   }
 
-  /* a:visited{
-    color:orange
-  } */
-
-  /* ul{
-    list-style-type: none;
-    font-size: 34px;
-  } */
-
   #dog-main{
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-  }
-
-  .dog-column{
-    /* display: flex;
-    flex-direction: column; */
-
-    width: 24%;
-    /* flex-wrap: wrap;
-    align-items: center; */
-    flex-wrap: wrap;
-
-  }
-
-  .dog-column img{
-    max-width: 25vw;
-    max-height: 50vh;
-
   }
 
   .breed-text{
@@ -144,23 +119,18 @@ p{
     font-weight: bold;
   }
 
-  #para-container{
+  .para-container{
     display: flex;
     flex-direction: column;
     align-items: center;
   
   }
 
-  #page-para{
+  .page-para{
   display: flex;
   justify-content: center;
   width: 73vw;
-
   }
-
-  /* #page-para p{
-    width: 111em;
-  } */
 
   button{
     margin: 50px;
