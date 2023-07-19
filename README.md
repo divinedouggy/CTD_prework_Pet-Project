@@ -8,8 +8,21 @@ Pet Project is a little pet project of mine; a simple little app where you can l
 *Simply:* <br/>
 * fork this repository
 * clone this repository to your computer
-* open the **index.html** file in your browser of choice
+* open the `index.html` file in your browser of choice
 
+`index.html`
+`test.css` <br/>
+`index.html`<br/>
+`test.css`
+
+
+```
+index.html
+test.js
+
+
+
+```
 
 
 
