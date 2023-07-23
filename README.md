@@ -10,18 +10,8 @@ There's also a cat section where you are bombarded with cat pictures. No informa
 * fork this repository
 * `git clone` this repository to your computer
 * open the **index.html** file in your browser of choice
+* ... and enjoy the app!
 
 <br/>
 
 ### **This site was built using [The Dog API](https://thedogapi.com/) and [The Cat API](https://thecatapi.com/).**
-
-
-
-
-
-
-
-
-
-
-
